@@ -1,0 +1,67 @@
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "WELCOME TO THE WORLD - BIENVENIDOS AL MUNDO",
+  "UrlUpdate": "https://bitbin.it/ew0ktvTq/raw/",
+  "Sms": "",
+  "EmailFeedback": "",
+  "UrlContato": "",
+  "UrlTermos": "https://bitbin.it/pastes/3QdkVkgw/edit/",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7100"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "SERVER FRONT",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "d1yaasuycn8gb1.cloudfront.net",
+      "CheckUser": "http://191.252.101.82:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVER ZION",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "rw87xxnl4j.map.azionedge.net",
+      "CheckUser": "http://191.252.101.82:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+  ],
+ "Networks": [
+    {
+      "Name": "VIVO FRONT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host_port][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "www.digi.com",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO ZION",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: rw87xxnl4j.map.azionedge.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "rw87xxnl4j.map.azionedge.net",
+      "ProxyPort": "80",
+      "Info": "Proxy" 
+    }
+  ]
+}

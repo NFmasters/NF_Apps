@@ -2,7 +2,7 @@
   "Version": "1.0.0",
   "ReleaseNotes": "WELCOME TO THE WORLD - BIENVENIDOS AL MUNDO",
   "UrlUpdate": "https://raw.githubusercontent.com/NFmasters/NF_Apps/main/pandas_conf/config",
-  "Sms": "",
+  "Sms": "https://raw.githubusercontent.com/NFmasters/NF_Apps/main/pandas_conf/mensagem",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "https://bitbin.it/pastes/3QdkVkgw/edit/",

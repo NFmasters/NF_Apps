@@ -9,13 +9,25 @@
   "CheckUser": "true",
   "Udp": [
     {
-      "Porta": "7300"
+      "Porta": "7100"
     },
     {
       "Porta": "7200"
     },
     {
-      "Porta": "7100"
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
     }
   ],
   "Servers": [
@@ -40,7 +52,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
+    }
   ],
  "Networks": [
     {
